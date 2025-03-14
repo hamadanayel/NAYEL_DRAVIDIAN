@@ -1,0 +1,14 @@
+NAYEL Team for Fake News Detection in Dravidian Languages @ DravidianLangTech-2025
+#############
+Briefly describe what methodology you have used for this task
+#(minimum one(5 to 10 lines) paragraph)
+#(This might appear in task description(Overview) paper)
+############
+# A machine learning-based model has been developed integrated with tf-idf of the character n-grams for a wide range of characters as a feature extraction approach. Few preprocessing steps have been implemented to clean the text. The implemented ML-based classifiers are SVM, SGD, Naive Bayes. Furthermore, voting-based ensemble model phase been applied using the aforementioned classifiers.
+############
+# What is the most interesting aspect of your system
+# (i.e., if we are to briefly describe your system in the task (Overview) paper,
+# what would you want us to mention) ?
+############
+#The most interesting aspect of the proposed system is its simplicity. The system does not use external data nor uses extraneous computation resources such as servers or cloud computing. The system uses a primary feature extraction technique (tf-idf over character n-grams) and classical ML classification algorithms (SVM, SGD and Naive Bayes) as well as voting-based ensemble algorithm.
+
